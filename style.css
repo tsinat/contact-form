@@ -1,0 +1,69 @@
+body{
+	/*background-color:#252525;*/
+}
+.container{
+	background-color:#34495e;
+}
+h1{
+	color:silver;
+	text-align: center;
+	font-size:3em;
+	font-weight:bold;
+}
+.addContact{
+	margin-top:40px;
+	background-color:#2980b9;
+}
+.tcont{
+	padding:20px;
+}
+.formcontainer{
+	background-color:#bdc3c7;
+	margin-top:10px;
+	display:none;
+	/*border: 1px solid green;*/
+}
+.form{
+	margin-top: 20px;
+	padding: 20px;
+	/*border-radius:20px;*/
+}
+.clo{
+	float:right;
+	margin-bottom:5px;
+	background-color:red;
+	border:0;
+}
+.save{
+	background-color:#2980b9;
+	color: silver;
+	padding: 10px 60px;
+	margin-top:20px;
+	margin-right: 50px;
+	float:right;
+}
+input{
+	height:40px;
+}
+table{
+	table-layout:fixed;
+	font-size: 1.2em;
+	margin-top:40px;
+}
+thead {
+	background-color:grey;
+}
+th{
+	color:silver;
+	padding:10px 40px;
+}
+tr{
+	padding-bottom:10px;
+}
+td{ 
+	word-wrap:break-word;
+	padding-left:20px;
+	color:silver;
+	min-height:40px;
+	width: 20%;
+}
