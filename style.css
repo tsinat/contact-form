@@ -10,6 +10,9 @@ h1{
 	font-size:3em;
 	font-weight:bold;
 }
+.len{
+	border:1px solid red;
+}
 .addContact{
 	margin-top:40px;
 	background-color:#2980b9;
