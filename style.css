@@ -1,91 +1,89 @@
-body{
-	/*background-color:#252525;*/
+body {
+    /*background-color:#252525;*/
 }
-.container{
-	background-color:#34495e;
+.container {
+    background-color: #34495e;
 }
-h1{
-	color:silver;
-	text-align: center;
-	font-size:3em;
-	font-weight:bold;
+h1 {
+    color: silver;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
 }
-.len{
-	border:1px solid red;
+.len {
+    border: 1px solid red;
 }
-.addContact{
-	margin-top:40px;
-	background-color:#2980b9;
+.addContact {
+    margin-top: 40px;
+    background-color: #2980b9;
 }
-.tcont{
-	padding:20px;
+.tcont {
+    padding: 20px;
 }
-.formcontainer{
-	background-color:#bdc3c7;
-	margin-top:10px;
-	display:none;
-	/*border: 1px solid green;*/
+.formcontainer {
+    background-color: #bdc3c7;
+    margin-top: 10px;
+    display: none;
+    /*border: 1px solid green;*/
 }
-.form{
-	margin-top: 20px;
-	padding: 20px;
-	/*border-radius:20px;*/
+.form {
+    margin-top: 20px;
+    padding: 20px;
+    /*border-radius:20px;*/
 }
-.clo{
-	float:right;
-	margin-bottom:5px;
-	background-color:red;
-	border:0;
+.clo {
+    float: right;
+    margin-bottom: 5px;
+    background-color: red;
+    border: 0;
 }
-.save{
-	background-color:#2980b9;
-	color: silver;
-	padding: 10px 60px;
-	margin-top:20px;
-	margin-right: 50px;
-	float:right;
+.save {
+    background-color: #2980b9;
+    color: silver;
+    padding: 10px 60px;
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
 }
-input{
-	height:40px;
+input {
+    height: 40px;
 }
-table{
-	table-layout:fixed;
-	font-size: 1.2em;
-	margin-top:40px;
-	margin-bottom:60px;
-	padding-bottom: 400px;
+table {
+    table-layout: fixed;
+    font-size: 1.2em;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 400px;
 }
-
 thead {
-	background-color:grey;
+    background-color: grey;
 }
-th{
-	color:silver;
-	position:relative;
-	padding:10px 40px;
+th {
+    color: silver;
+    position: relative;
+    padding: 10px 40px;
 }
-tr{
-	position:relative;
-	padding-bottom:10px;
-	border-bottom: 10px solid silver;
+tr {
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 10px solid silver;
 }
-td{ 
-	word-wrap:break-word;
-	padding-left:20px;
-	color:silver;
-	min-height:40px;
-	width: 20%;
+td {
+    word-wrap: break-word;
+    padding-left: 20px;
+    color: silver;
+    min-height: 40px;
+    width: 20%;
 }
-img{
-	/*border-radius:50%;*/
+img {
+    /*border-radius:50%;*/
 }
-.delete{
-/*margin-left:50px;*/
-
+.delete {
+    /*margin-left:50px;*/
 }
-.edit{
-	margin-left:5px;
+.edit {
+    margin-left: 5px;
 }
-.modal{
-	width:100%;
+.modal {
+    width: 100%;
 }

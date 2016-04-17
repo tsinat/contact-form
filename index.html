@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Contact List</title>
@@ -7,148 +8,150 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css">
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- <div class="container">
- 	<h1>Contact List</h1>
+	<div class="container">
+		<h1>Contact List</h1>
 
-<!-- Trigger the modal with a button -->
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add Contact</button>
+		<!-- Trigger the modal with a button -->
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add Contact</button>
 
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-      	<form role = 'form' class = 'form'> 		
- 			<div class="row">
- 				<div class="form-group col-lg-6">
- 					<label for="name">Name:</label>
- 					<input type="text" class="form-control" id= 'name'  placeholder = 'Contact Name' required>
- 				</div>
- 				<div class="form-group col-lg-6">
- 					<label for="email">Email:</label>
- 					<input type="email" id = 'email' class = 'form-control' placeholder = 'Contact email' required>
- 				</div>
- 			</div>
- 			<div class="row">
- 				<div class="form-group col-lg-6">
-	 				<label for="tel">Tel.</label>
-					<input type="number" id = 'tel' class = 'form-control' placeholder = '(000)-000-0000'>
- 			    </div>
- 			    <div class="form-group col-lg-6">
- 			    	<label for="conimage">Image</label>
- 			    	<input type="url" id = 'image' class = 'form-control' placeholder = 'contact url'>
- 			    </div>
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<form role='form' class='form'>
+							<div class="row">
+								<div class="form-group col-lg-6">
+									<label for="name">Name:</label>
+									<input type="text" class="form-control" id='name' placeholder='Contact Name' required>
+								</div>
+								<div class="form-group col-lg-6">
+									<label for="email">Email:</label>
+									<input type="email" id='email' class='form-control' placeholder='Contact email' required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-lg-6">
+									<label for="tel">Tel.</label>
+									<input type="number" id='tel' class='form-control' placeholder='(000)-000-0000'>
+								</div>
+								<div class="form-group col-lg-6">
+									<label for="conimage">Image</label>
+									<input type="url" id='image' class='form-control' placeholder='contact url'>
+								</div>
 
- 			</div>
+							</div>
 
- 			<div class="row">
- 				<div class="form-group col-lg-6">
-	 				<label for="address">Address:</label>
-					<input type="text" id = 'address' class = 'form-control' placeholder = 'Enter customer address'>
- 			    </div>
- 			    <div class="form-group col-lg-6">
- 			    	<button type='submit' class =' save btn btn-lg' id='save'>Save</button>
- 			    </div>
+							<div class="row">
+								<div class="form-group col-lg-6">
+									<label for="address">Address:</label>
+									<input type="text" id='address' class='form-control' placeholder='Enter customer address'>
+								</div>
+								<div class="form-group col-lg-6">
+									<button type='submit' class=' save btn btn-lg' id='save'>Save</button>
+								</div>
 
- 			</div>
- 		</form> 
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
+							</div>
+						</form>
 
-  </div>
-</div>
-<!-- Modal -->
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
 
-<!-- edit modal -->
+			</div>
+		</div>
+		<!-- Modal -->
 
-<!-- Modal -->
-<div id="editModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+		<!-- edit modal -->
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>
-      <div class="modal-body">
-      	<form role = 'form' class = 'form2'> 		
- 			<div class="row">
- 				<div class="form-group col-lg-6">
- 					<label for="name">Name:</label>
- 					<input type="text" class="form-control" id= 'name2'  placeholder = 'Contact Name' required>
- 				</div>
- 				<div class="form-group col-lg-6">
- 					<label for="email">Email:</label>
- 					<input type="email" id = 'email2' class = 'form-control' placeholder = 'Contact email' required>
- 				</div>
- 			</div>
- 			<div class="row">
- 				<div class="form-group col-lg-6">
-	 				<label for="tel">Tel.</label>
-					<input type="number" id = 'tel2' class = 'form-control' placeholder = '(000)-000-0000'>
- 			    </div>
- 			    <div class="form-group col-lg-6">
- 			    	<label for="conimage">Image</label>
- 			    	<input type="url" id = 'image2' class = 'form-control' placeholder = 'contact url'>
- 			    </div>
+		<!-- Modal -->
+		<div id="editModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
 
- 			</div>
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<form role='form' class='form2'>
+							<div class="row">
+								<div class="form-group col-lg-6">
+									<label for="name">Name:</label>
+									<input type="text" class="form-control" id='name2' placeholder='Contact Name' required>
+								</div>
+								<div class="form-group col-lg-6">
+									<label for="email">Email:</label>
+									<input type="email" id='email2' class='form-control' placeholder='Contact email' required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group col-lg-6">
+									<label for="tel">Tel.</label>
+									<input type="number" id='tel2' class='form-control' placeholder='(000)-000-0000'>
+								</div>
+								<div class="form-group col-lg-6">
+									<label for="conimage">Image</label>
+									<input type="url" id='image2' class='form-control' placeholder='contact url'>
+								</div>
 
- 			<div class="row">
- 				<div class="form-group col-lg-6">
-	 				<label for="address">Address:</label>
-					<input type="text" id = 'address2' class = 'form-control' placeholder = 'Enter customer address'>
- 			    </div>
- 			    <div class="form-group col-lg-6">
- 			    	<button type='submit' class =' save btn btn-lg' id='saveEdit'>Save</button>
- 			    </div>
+							</div>
 
- 			</div>
- 		</form> 
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
+							<div class="row">
+								<div class="form-group col-lg-6">
+									<label for="address">Address:</label>
+									<input type="text" id='address2' class='form-control' placeholder='Enter customer address'>
+								</div>
+								<div class="form-group col-lg-6">
+									<button type='submit' class=' save btn btn-lg' id='saveEdit'>Save</button>
+								</div>
 
-  </div>
-</div>
-<!-- Modal -->
- 			
-<!-- edit modal -->
- 		<div class="row tcont">
- 			<table class ='table col-sm-12'>
- 				<thead>
- 					<tr>
- 						<th>Image</th>
- 						<th>Name</th>
- 						<th>Email</th>
- 						<th>Tel.</th>
- 						<th>Address</th>
- 						<th>Delete/Edit</th>
- 					</tr>
- 				</thead>
- 				<tbody id = 'tblBody'>
- 					
- 				</tbody>
- 			</table>
- 		</div>
- </div>
-	<script src = 'https://code.jquery.com/jquery-2.2.3.min.js'></script>
-	<script src = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-	<script src = 'main.js'></script>
+							</div>
+						</form>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Modal -->
+
+		<!-- edit modal -->
+		<div class="row tcont">
+			<table class='table col-sm-12'>
+				<thead>
+					<tr>
+						<th>Image</th>
+						<th>Name</th>
+						<th>Email</th>
+						<th>Tel.</th>
+						<th>Address</th>
+						<th>Delete/Edit</th>
+					</tr>
+				</thead>
+				<tbody id='tblBody'>
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<script src='https://code.jquery.com/jquery-2.2.3.min.js'></script>
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+	<script src='main.js'></script>
 </body>
+
 </html>
